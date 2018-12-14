@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Demo"
-  s.version      = "3.1.0"
+  s.version      = "1.0.0"
   s.summary      = "Demo description"
 
   s.description  = "Creating a library for demo purpose"
@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
 
  #s.source_files  = "Demo", "Classes/**/*.{h,m}"
  s.source_files = 'Demo/**/*.{swift}'
-# s.source_files = Demo/Demo/service.swift
+#s.source_files = Demo/service.swift
  s.requires_arc = true
 
 
