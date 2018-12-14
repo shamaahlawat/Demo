@@ -36,14 +36,15 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-#s.swift_version = '4.0'
+ #s.swift_version = '4.0'
 
 
-  s.source       = { :git => "https://github.com/shamaahlawat/Demo.git", :tag => 'v3.1.0'}
+  s.source       = { :git => "https://github.com/shamaahlawat/Demo.git", :tag => '1.0.0'}
 
  #s.source_files  = "Demo", "Classes/**/*.{h,m}"
-  s.source_files = 'Demo/**/*.{swift}'
-s.requires_arc = true
+ #s.source_files = 'Demo/**/*.{swift}'
+ s.source_files = Demo/Demo.swift
+ s.requires_arc = true
 
 
 
