@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Demo"
-  s.version      = "1.0.0"
+  s.version      = "3.1.0"
   s.summary      = "Demo description"
 
   s.description  = "Creating a library for demo purpose"
@@ -36,8 +36,10 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
+#s.swift_version = '4.0'
 
-  s.source       = { :git => "https://github.com/shamaahlawat/Demo.git", :tag => s.version.to_s}
+
+  s.source       = { :git => "https://github.com/shamaahlawat/Demo.git", :tag => 'v3.1.0'}
 
  #s.source_files  = "Demo", "Classes/**/*.{h,m}"
   s.source_files = 'Demo/**/*.{swift}'
