@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
 
  #s.source_files  = "Demo", "Classes/**/*.{h,m}"
  #s.source_files = 'Demo/**/*.{swift}'
- s.source_files = Demo/Demo.swift
+ s.source_files = Demo/Service.swift
  s.requires_arc = true
 
 
