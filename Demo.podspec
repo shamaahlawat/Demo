@@ -37,10 +37,15 @@ Pod::Spec.new do |s|
   # s.tvos.deployment_target = "9.0"
 
 
-  s.source       = { :git => "https://github.com/shamaahlawat/Demo.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/shamaahlawat/Demo.git", :tag => s.version.to_s}
 
-  s.source_files  = "Demo", "Classes/**/*.{h,m}"
-#s.exclude_files = "Classes/Exclude"
+ #s.source_files  = "Demo", "Classes/**/*.{h,m}"
+  s.source_files = 'Demo/**/*.{swift}'
+s.requires_arc = true
+
+
+
+   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
